@@ -36,7 +36,7 @@ export interface UIStrings {
 const STRINGS: Record<Language, UIStrings> = {
   ja: {
     appName: '数字リスニング',
-    uiLanguage: 'UI言語',
+    uiLanguage: '表示言語',
     targetLanguage: '学習言語',
     categories: 'カテゴリ',
     difficulty: '難易度',
@@ -70,8 +70,8 @@ const STRINGS: Record<Language, UIStrings> = {
   },
   en: {
     appName: 'Number Listening',
-    uiLanguage: 'UI language',
-    targetLanguage: 'Target language',
+    uiLanguage: 'Display language',
+    targetLanguage: 'Learning language',
     categories: 'Categories',
     difficulty: 'Difficulty',
     questionsCount: 'Questions',
@@ -104,8 +104,8 @@ const STRINGS: Record<Language, UIStrings> = {
   },
   fr: {
     appName: 'Écoute des nombres',
-    uiLanguage: 'Langue de l’interface',
-    targetLanguage: 'Langue cible',
+    uiLanguage: 'Langue d’affichage',
+    targetLanguage: 'Langue d’apprentissage',
     categories: 'Catégories',
     difficulty: 'Difficulté',
     questionsCount: 'Questions',
@@ -138,8 +138,8 @@ const STRINGS: Record<Language, UIStrings> = {
   },
   zh: {
     appName: '数字听力',
-    uiLanguage: '界面语言',
-    targetLanguage: '目标语言',
+    uiLanguage: '显示语言',
+    targetLanguage: '学习语言',
     categories: '分类',
     difficulty: '难度',
     questionsCount: '题目数',
@@ -172,7 +172,7 @@ const STRINGS: Record<Language, UIStrings> = {
   },
   ko: {
     appName: '숫자 듣기',
-    uiLanguage: 'UI 언어',
+    uiLanguage: '표시 언어',
     targetLanguage: '학습 언어',
     categories: '카테고리',
     difficulty: '난이도',
@@ -206,8 +206,8 @@ const STRINGS: Record<Language, UIStrings> = {
   },
   de: {
     appName: 'Zahlen-Hörverstehen',
-    uiLanguage: 'Oberflächensprache',
-    targetLanguage: 'Zielsprache',
+    uiLanguage: 'Anzeigesprache',
+    targetLanguage: 'Lernsprache',
     categories: 'Kategorien',
     difficulty: 'Schwierigkeit',
     questionsCount: 'Fragen',
@@ -240,8 +240,8 @@ const STRINGS: Record<Language, UIStrings> = {
   },
   it: {
     appName: 'Ascolto dei numeri',
-    uiLanguage: 'Lingua interfaccia',
-    targetLanguage: 'Lingua bersaglio',
+    uiLanguage: 'Lingua di visualizzazione',
+    targetLanguage: 'Lingua di studio',
     categories: 'Categorie',
     difficulty: 'Difficoltà',
     questionsCount: 'Domande',
@@ -274,8 +274,8 @@ const STRINGS: Record<Language, UIStrings> = {
   },
   es: {
     appName: 'Escucha de números',
-    uiLanguage: 'Idioma de interfaz',
-    targetLanguage: 'Idioma objetivo',
+    uiLanguage: 'Idioma de visualización',
+    targetLanguage: 'Idioma de aprendizaje',
     categories: 'Categorías',
     difficulty: 'Dificultad',
     questionsCount: 'Preguntas',
@@ -308,8 +308,8 @@ const STRINGS: Record<Language, UIStrings> = {
   },
   nl: {
     appName: 'Cijfers luisteren',
-    uiLanguage: 'Interfacetaal',
-    targetLanguage: 'Doeltaal',
+    uiLanguage: 'Weergavetaal',
+    targetLanguage: 'Leertaal',
     categories: 'Categorieën',
     difficulty: 'Niveau',
     questionsCount: 'Vragen',
