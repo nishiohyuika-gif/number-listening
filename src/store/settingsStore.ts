@@ -34,7 +34,7 @@ export const useSettings = create<SettingsState>()(
     (set) => ({
       uiLang: detectDefaultUiLang(),
       targetLang: 'en',
-      categories: [...ALL_CATEGORIES],
+      categories: ['number'],
       difficulty: 'easy',
       questionsPerSession: 10,
       playbackRate: 1,
