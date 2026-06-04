@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { Category, Difficulty, Language } from '../types/core';
-import { ALL_CATEGORIES } from '../types/core';
+import { OtherThing } from '../types/core';
 import { makePersistStorage } from './persistence';
 
 interface SettingsState {
